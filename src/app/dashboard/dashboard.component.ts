@@ -37,7 +37,11 @@ export class DashboardComponent {
     embedUrl: undefined,
     tokenType: models.TokenType.Embed,
     accessToken: undefined,
-    settings: undefined,
+    settings: {
+      filterPaneEnabled:false,
+      navContentPaneEnabled:false,
+    },
+    
   };
 
   reportConfigNew: IReportEmbedConfiguration = {
@@ -45,7 +49,10 @@ export class DashboardComponent {
     embedUrl: undefined,
     tokenType: models.TokenType.Embed,
     accessToken: undefined,
-    settings: undefined,
+    settings: {
+      filterPaneEnabled:false,
+      navContentPaneEnabled:false,
+    },
   };
 
   /**
