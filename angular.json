@@ -67,7 +67,10 @@
               "browserTarget": "SampleApplication:build:production"
             },
             "development": {
-              "browserTarget": "SampleApplication:build:development"
+              "browserTarget": "SampleApplication:build:development",
+              "options":{
+                "port": 4300
+              }
             }
           },
           "defaultConfiguration": "development"
