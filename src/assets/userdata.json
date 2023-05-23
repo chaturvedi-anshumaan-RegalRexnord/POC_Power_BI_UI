@@ -1,0 +1,5 @@
+[
+      {"username":"thulasidoss","password":"welcome" ,"role":"admin"},
+      {"username":"ajay","password":"welcome","role":"enterprise user"},
+      {"username":"sarma","password":"welcome","role":"user"}   
+]  
